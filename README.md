@@ -39,11 +39,26 @@
   <b>Phantom External</b> — это высокопроизводительный, незаметный внешний чит для Unturned 3.x, созданный с учетом стандартов античитов 2026 года. Построенный на архитектуре <i>Universal Mono Resolver</i>, он гарантирует стабильность даже после обновлений игры без необходимости ручного поиска оффсетов.
 </p>
 
+<p align center>
+  <img src="images/mockup.png" width="700" alt="Interface Mockup">
+</p>
+
 ### ✨ Основные функции
 - 🎯 **Продвинутый Аимбот**: Плавная наводка (Lerp) и настраиваемый FOV — выглядит на 100% как движения человека.
 - 👁️ **Премиум ESP**: 2D/3D боксы, полоски здоровья, дистанция и названия предметов.
 - 🧠 **Mono Resolver**: Динамическое сканирование памяти для вечной стабильности адресов.
 - 🛡️ **Система скрытности**: Многопоточное кэширование памяти и работа через `DisplayAffinity` для защиты от скриншотов.
+
+## 🏗️ Technical Architecture / Архитектура
+
+```mermaid
+graph TD
+    A[Unturned Game] -->|Memory Read| B[MemoryReader SDK]
+    B -->|Resolving| C[MonoResolver]
+    C -->|SDK Mapping| D[Game Classes]
+    D -->|Data| E[Main Logic]
+    E -->|Rendering| F[Overlay]
+```
 
 ## 🚀 Quick Start / Быстрый запуск
 
