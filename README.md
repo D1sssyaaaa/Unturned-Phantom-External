@@ -22,7 +22,7 @@
 </p>
 
 <p align center>
-  <img src="file:///Users/denisgarkusa/.gemini/antigravity/brain/f1e4f445-df88-4cb5-9078-1da25d94d821/external_cheat_ui_mockup_1774197506322.png" width="700" alt="Interface Mockup">
+  <img src="images/mockup.png" width="700" alt="Interface Mockup">
 </p>
 
 ### ✨ Key Features
