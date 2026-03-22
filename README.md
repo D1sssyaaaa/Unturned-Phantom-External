@@ -1,28 +1,9 @@
 # <p align center>👻 PHANTOM EXTERNAL - Unturned 2026</p>
 
-<p align center>
-  <img src="https://img.shields.io/badge/Status-Undetected-success?style=for-the-badge&logo=shield" alt="Status">
-  <img src="https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows" alt="Platform">
-  <img src="https://img.shields.io/badge/Language-CSharp-purple?style=for-the-badge&logo=csharp" alt="Language">
-  <img src="https://img.shields.io/github/license/D1sssyaaaa/Unturned-Phantom-External?style=for-the-badge" alt="License">
-</p>
-
----
-
-<p align center>
-  <a href="#english">English</a> | <a href="#russian">Русский</a>
-</p>
-
----
-
 <h2 id="english">🇺🇸 English</h2>
 
 <p align center>
   <b>Phantom External</b> is a high-performance, undetected external cheat for Unturned 3.x, designed with 2026 anti-cheat standards in mind. Built on a <i>Universal Mono Resolver</i> architecture, it ensures stability across multiple game updates without manual offset hunting.
-</p>
-
-<p align center>
-  <img src="images/mockup.png" width="700" alt="Interface Mockup">
 </p>
 
 ### ✨ Key Features
@@ -37,10 +18,6 @@
 
 <p align center>
   <b>Phantom External</b> — это высокопроизводительный, незаметный внешний чит для Unturned 3.x, созданный с учетом стандартов античитов 2026 года. Построенный на архитектуре <i>Universal Mono Resolver</i>, он гарантирует стабильность даже после обновлений игры без необходимости ручного поиска оффсетов.
-</p>
-
-<p align center>
-  <img src="images/mockup.png" width="700" alt="Interface Mockup">
 </p>
 
 ### ✨ Основные функции
