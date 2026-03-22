@@ -1,6 +1,6 @@
-# <p align="center">👻 PHANTOM EXTERNAL - Unturned 2026</p>
+# <p align center>👻 PHANTOM EXTERNAL - Unturned 2026</p>
 
-<p align="center">
+<p align center>
   <img src="https://img.shields.io/badge/Status-Undetected-success?style=for-the-badge&logo=shield" alt="Status">
   <img src="https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge&logo=windows" alt="Platform">
   <img src="https://img.shields.io/badge/Language-CSharp-purple?style=for-the-badge&logo=csharp" alt="Language">
@@ -9,48 +9,53 @@
 
 ---
 
-<p align="center">
-  <b>Phantom External</b> is a high-performance, undetected external cheat for Unturned 3.x, designed with 2026 anti-cheat standards in mind. Built on a <i>Universal Mono Resolver</i> architecture, it ensures stability across multiple game updates without manual offset hunting.
+<p align center>
+  <a href="#english">English</a> | <a href="#russian">Русский</a>
 </p>
-
-<p align="center">
-  <img src="file:///Users/denisgarkusa/.gemini/antigravity/brain/f1e4f445-df88-4cb5-9078-1da25d94d821/external_cheat_ui_mockup_1774197506322.png" width="700" alt="Interface Mockup">
-</p>
-
-## ✨ Key Features
-
-- 🎯 **Advanced Aimbot**: Vector-based smoothing (Lerp) and custom FOV to look 100% human.
-- 👁️ **Premium ESP**: 2D/3D boxes, Health bars, Distance, and Item names with high-performance GDI+ rendering.
-- 🧠 **Mono Resolver**: Dynamic runtime dissection of `mono-2.0-bdwgc.dll` for permanent offset stability.
-- 🛡️ **Stealth Engine**: Multi-threaded memory caching and `DisplayAffinity` overlay protection against screenshots.
-- 🎨 **Modern UI**: Sleek dark-mode interface with category tabs and reactive controls.
-
-## 🚀 Quick Start (No Install Method)
-
-To build and run **Phantom External** instantly without a heavy IDE:
-
-1. **Clone the repo**: `git clone https://github.com/D1sssyaaaa/Unturned-Phantom-External.git`
-2. **Run the Builder**: Double-click `build.bat` in the project folder.
-3. **Launch Unturned**: Enter any server or local world.
-4. **Execute**: Open `PhantomExternal.exe` and dominate.
-
-## 🏗️ Technical Architecture
-
-```mermaid
-graph TD
-    A[Unturned Game] -->|Memory Read| B[MemoryReader SDK]
-    B -->|Resolving| C[MonoResolver]
-    C -->|SDK Mapping| D[Game Classes]
-    D -->|Data| E[Main Logic]
-    E -->|Rendering| F[DirectX/GDI+ Overlay]
-    G[Modern Menu UI] -->|Control| E
-```
-
-## 📜 Disclaimer
-This project is for educational purposes only. Use of this software may result in a ban. The developer is not responsible for any consequences resulting from the use of this software.
 
 ---
 
-<p align="center">
-  Give a ⭐ if you liked the project!
+<h2 id="english">🇺🇸 English</h2>
+
+<p align center>
+  <b>Phantom External</b> is a high-performance, undetected external cheat for Unturned 3.x, designed with 2026 anti-cheat standards in mind. Built on a <i>Universal Mono Resolver</i> architecture, it ensures stability across multiple game updates without manual offset hunting.
+</p>
+
+<p align center>
+  <img src="file:///Users/denisgarkusa/.gemini/antigravity/brain/f1e4f445-df88-4cb5-9078-1da25d94d821/external_cheat_ui_mockup_1774197506322.png" width="700" alt="Interface Mockup">
+</p>
+
+### ✨ Key Features
+- 🎯 **Advanced Aimbot**: Vector-based smoothing (Lerp) and custom FOV to look 100% human.
+- 👁️ **Premium ESP**: 2D/3D boxes, Health bars, Distance, and Item names.
+- 🧠 **Mono Resolver**: Dynamic runtime dissection for permanent offset stability.
+- 🛡️ **Stealth Engine**: Multi-threaded memory caching and `DisplayAffinity` protection.
+
+---
+
+<h2 id="russian">🇷🇺 Русский</h2>
+
+<p align center>
+  <b>Phantom External</b> — это высокопроизводительный, незаметный внешний чит для Unturned 3.x, созданный с учетом стандартов античитов 2026 года. Построенный на архитектуре <i>Universal Mono Resolver</i>, он гарантирует стабильность даже после обновлений игры без необходимости ручного поиска оффсетов.
+</p>
+
+### ✨ Основные функции
+- 🎯 **Продвинутый Аимбот**: Плавная наводка (Lerp) и настраиваемый FOV — выглядит на 100% как движения человека.
+- 👁️ **Премиум ESP**: 2D/3D боксы, полоски здоровья, дистанция и названия предметов.
+- 🧠 **Mono Resolver**: Динамическое сканирование памяти для вечной стабильности адресов.
+- 🛡️ **Система скрытности**: Многопоточное кэширование памяти и работа через `DisplayAffinity` для защиты от скриншотов.
+
+## 🚀 Quick Start / Быстрый запуск
+
+1. **Clone / Клонировать**: `git clone https://github.com/D1sssyaaaa/Unturned-Phantom-External.git`
+2. **Build / Собрать**: Double-click / Дважды нажми на `build.bat`.
+3. **Play / Играть**: Run Unturned, then run `PhantomExternal.exe`.
+
+## 📜 Disclaimer / Отказ от ответственности
+This project is for educational purposes only. / Этот проект создан исключительно в образовательных целях. Разработчик не несет ответственности за баны или другие последствия.
+
+---
+
+<p align center>
+  Give a ⭐ if you liked the project! / Поставь ⭐ если проект тебе понравился!
 </p>
