@@ -43,6 +43,17 @@ graph TD
 2. **Build / Собрать**: Double-click / Дважды нажми на `build.bat`.
 3. **Play / Играть**: Run Unturned, then run `PhantomExternal.exe`.
 
+## 🛠️ Build Script Explained / О коде в build.bat
+
+The `build.bat` file uses the built-in Windows C# compiler (`csc.exe`). You don't need to install anything.
+Файл `build.bat` использует встроенный компилятор Windows (`csc.exe`). Вам не нужно ничего устанавливать.
+
+**What it does / Что он делает:**
+- `set "csc=..."`: Locates the compiler on your system. / Находит компилятор в системе.
+- `/target:winexe`: Builds a windowed application without a black console. / Собирает оконное приложение (без консоли).
+- `/r:System...`: Connects the required libraries for drawing and forms. / Подключает библиотеки для рисования и интерфейса.
+- `external\*.cs`: Compiles all files in the `external` folder. / Собирает все файлы из папки `external`.
+
 ## 📜 Disclaimer / Отказ от ответственности
 This project is for educational purposes only. / Этот проект создан исключительно в образовательных целях. Разработчик не несет ответственности за баны или другие последствия.
 
